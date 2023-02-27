@@ -52,11 +52,14 @@ body{
     letter-spacing: 0.03em;
     color: var(--main_font_color);
     text-transform: uppercase;
-    margin-right: 56px;
+    margin-right: 36px;
     padding: 24px 0;
 }
 .header_Logo_span{
     color: var(--logo_color);
+}
+.header_item{
+    margin-left: 40px;
 }
 .header_link{
     display: inline-block;
@@ -66,7 +69,6 @@ body{
     color: var(--main_font_color);
     letter-spacing: 0.02em;
     padding: 24px 0;
-    margin-left: 20px;
 }
 .header_address{
     display: inline-block;
@@ -79,7 +81,7 @@ body{
 .header_address_list{
     display: flex;  
 }
-.header_address_tel_link{
+.header_address_tel{
     margin-left: 40px;
 }
 .header_address_tel_link, .header_address_mail_link{
@@ -239,8 +241,7 @@ body{
     display: flex;
     column-gap: 24px;
     justify-content: center;
-    padding-bottom: 72px;
-    padding-top: 96px;
+    margin-bottom: 72px;
 }
 .btn_item{
     font-family: inherit;
@@ -262,6 +263,7 @@ body{
 }
 .section{
     padding-bottom: var(--padding_button);
+    padding-top: 96px;
 }
 .section_items_title_text{
     border-bottom: 1px solid #E7E9FC;
